@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration @ Flamming Knight</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <link href="style/bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="style/font-awesome-4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
+    <link href="style/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body style="background: #121212;background-image: linear-gradient(rgba(3, 3, 3, 0.87), rgba(0, 0, 0, 0.9)), url(images/chessbackground.jpg);background-position: center;background-attachment: fixed;background-size: cover;width: 100%;height: 100vh;">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#" style="color:#cc9933; font-family: Monoton">Flaming Knight</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" style="color:#cc9933">Home</a></li>
+                    <li><a href="register.html" style="color: #000" class="activate">Register</a></li>
+                    <li><a style="color:#cc9933">Play</a></li>
+                    <li><a style="color:#cc9933">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container" style="margin-top:50px">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 col-xs-12 text-center">
+                <div class="col -lg-6" id="competition">
+                    <h4 class="text-center" style="color: #000"><b>REGISTER FOR COMPETITION</b></h4><br>
+                    <!--<form class="form-horizontal">-->
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input class="form-control" type="text" placeholder="Fullname">
+                            </div><br>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-at"></i></span>
+                                <input class="form-control" type="email" placeholder="Email" required>
+                            </div><br>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                <input class="form-control" type="text" placeholder="Phone Number">
+                            </div><br>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-star"></i></span>
+                                <input class="form-control" type="number" placeholder="Rating" required>
+                            </div><br>
+                            <button type="submit" class="btn btn-md">PAY NOW</button><br>
+                        </div>
+                    <!--</form>-->
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="container text-center" style="margin-top: 20px">
+        </div>
+    </div>
+
+
+
+
+
+    <script src="style/js/jquery-3.1.1.js"></script>
+    <script src="style/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="style/js/scrollreveal.js"></script>
+    <script src="style/js/smoothscroll.min.js"></script>
+    <script src="style/js/jquery.contenthover.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.btn-md').click(function(){
+                alert('Sorry! Your payment wasn\'t successful');
+            });
+        });
+    </script>
+</body>
+
+</html>
